@@ -2,8 +2,8 @@
 
 ## The Daily Routine
 
-| Command <img width="300"/> | Action <img width="300"/> |
-| :------- | :------ |
+| Command ____________________________________________________ | Action _________________________________________________________________________________ |
+| :------- | :------- |
 | `git pull`| Pull all changes from the remote repository |
 | `git checkout -b [branch-name-here]`| Create a new branch for your bug/feature/issue |
 | `git add .`| Add any changed files to the staging index |
@@ -13,11 +13,12 @@
 | `git checkout master`| Switch back to the master branch when the feature is done and tested |
 | `git merge [branch-name-here]`| Merge all changes into the master branch |
 | `git push`| Send your changes up to the remote repository |
+| <img width="300"/> | <img width="300"/> |
 
 ## Additional Actions
 
-| Command <img width="300"/> | Action <img width="300"/> |
-| :------- | :------ |
+| Command ____________________________________________________ | Action _________________________________________________________________________________ |
+| :------- | :------- |
 | `git init`| Initialize the current folder as a repository |
 | `git clone [/path/to/repo]` | Clone local repository |
 | `git clone [url]`| Clone a remote repository |
@@ -36,6 +37,7 @@
 | `git clean --force`| Clean all untracked files in the workspace |
 | `git clean --force -d`| Clean all untracked files and directories in the workspace |
 | `git clean --force -dx`| Clean all untracked **and ignored** files and directories in the workspace |
+| <img width="300"/> | <img width="300"/> |
 
 ## Git Architecture &amp; Terminology
 
