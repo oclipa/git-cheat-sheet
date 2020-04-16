@@ -3,7 +3,7 @@
 ## The Daily Routine
 
 | Command <img width="300"/> | Action <img width="300"/> |
-| ------- | ------ |
+| :------- | :------ |
 | `git pull`| Pull all changes from the remote repository |
 | `git checkout -b [branch-name-here]`| Create a new branch for your bug/feature/issue |
 | `git add .`| Add any changed files to the staging index |
@@ -17,7 +17,7 @@
 ## Additional Actions
 
 | Command <img width="300"/> | Action <img width="300"/> |
-| ------- | ------ |
+| :------- | :------ |
 | `git init`| Initialize the current folder as a repository |
 | `git clone [/path/to/repo]` | Clone local repository |
 | `git clone [url]`| Clone a remote repository |
