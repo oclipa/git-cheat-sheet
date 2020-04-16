@@ -2,22 +2,21 @@
 
 ## The Daily Routine
 
-| Command | Action |
+| Command <img width="300"/> | Action <img width="300"/> |
 | ------- | ------ |
 | `git pull`| Pull all changes from the remote repository |
 | `git checkout -b [branch-name-here]`| Create a new branch for your bug/feature/issue |
-| `git add .`| Add any new files you've created |
+| `git add .`| Add any changed files to the staging index |
 | `git status`| See the current status of the workspace |
 | `git diff [source branch] [target branch]`| Show changes |
 | `git commit -m "Detailed message here"`| Make the commit have a nice, detailed message |
 | `git checkout master`| Switch back to the master branch when the feature is done and tested |
 | `git merge [branch-name-here]`| Merge all changes into the master branch |
 | `git push`| Send your changes up to the remote repository |
-| <img width=300/> | <img width=600/> |
 
 ## Additional Actions
 
-| Command | Action |
+| Command <img width="300"/> | Action <img width="300"/> |
 | ------- | ------ |
 | `git init`| Initialize the current folder as a repository |
 | `git clone [/path/to/repo]` | Clone local repository |
@@ -29,15 +28,14 @@
 | `git log`| Display the git log |
 | `git checkout -- [filename]`| Restore working copy with latest from HEAD |
 | `git revert [commit ID]`| Rollback to the specified commit (preferred method for reverting a change) |
-| `git reset --soft [HEAD or commit ID]`| Discarding intervening commits.  Reset the HEAD to another commit but do not alter the index or working directory.  All changes between original HEAD and commit will be staged. |
-| `git reset --mixed [HEAD or commit ID]`| Discarding intervening commits and adds.  Reset the HEAD and index to another commit but do not alter the working directory.  All staged changes are removed from the index. |
-| `git reset --hard [HEAD or commit ID]`| Discarding intervening commits, adds and changes to files in local worksapce.  Reset the HEAD, index and workspace to another commit.  All changes between original HEAD and commit will be staged (can cause problems in shared repos) |
+| `git reset --soft [HEAD or commit ID]`| Discarding intervening commits.<br/>Reset the HEAD to another commit but do not alter the index or working directory.<br/>All changes between original HEAD and commit will be staged. |
+| `git reset --mixed [HEAD or commit ID]`| Discarding intervening commits and adds.<br/>Reset the HEAD and index to another commit but do not alter the working directory.<br/>All staged changes are removed from the index. |
+| `git reset --hard [HEAD or commit ID]`| Discarding intervening commits, adds and changes to files in local worksapce.<br/>Reset the HEAD, index and workspace to another commit.<br/>All changes between original HEAD and commit will be staged<br/>Avoid using with shared repos. |
 | `git commit --amend`| Allow the message for the most recent commit to be edited |
 | `git clean -n`| Perform a dry run of clean |
 | `git clean --force`| Clean all untracked files in the workspace |
 | `git clean --force -d`| Clean all untracked files and directories in the workspace |
 | `git clean --force -dx`| Clean all untracked **and ignored** files and directories in the workspace |
-| <img width=600/> | <img width=600/> |
 
 ## Git Architecture &amp; Terminology
 
