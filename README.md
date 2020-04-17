@@ -4,15 +4,17 @@
 
 | Command ____________________________________________________ | Action _________________________________________________________________________________ |
 | :------- | :------- |
-| `git pull`| Pull all changes from the remote repository |
-| `git checkout -b [branch-name-here]`| Create a new branch for your bug/feature/issue |
+| `git pull`| Pull all remote changes from current branch |
+| `git checkout -b [branch-name-here]`| Create a new branch, from the current branch, for your bug/feature/issue |
 | `git add .`| Add any changed files to the staging index |
 | `git status`| See the current status of the workspace |
 | `git diff [source branch] [target branch]`| Show changes |
 | `git commit -m "Detailed message here"`| Make the commit have a nice, detailed message |
+| `git push`| Push your changes onto the current branch |
+| `git request-pull master ./`| Request review of latest changes in current branch compared to master |
 | `git checkout master`| Switch back to the master branch when the feature is done and tested |
-| `git merge [branch-name-here]`| Merge all changes into the master branch |
-| `git push`| Send your changes up to the remote repository |
+| `git merge [branch-name-here]`| Merge all changes from the specified branch into the master branch |
+| `git push`| Push your merged changes onto the master branch |
 | <img width="300"/> | <img width="300"/> |
 
 ## Additional Actions
