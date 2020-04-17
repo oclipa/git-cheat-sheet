@@ -33,6 +33,7 @@
 | `git reset --mixed [HEAD or commit ID]`| Discarding intervening commits and adds.<br/>Reset the HEAD and index to another commit but do not alter the working directory.<br/>All staged changes are removed from the index. |
 | `git reset --hard [HEAD or commit ID]`| Discarding intervening commits, adds and changes to files in local worksapce.<br/>Reset the HEAD, index and workspace to another commit.<br/>All changes between original HEAD and commit will be staged<br/>Avoid using with shared repos. |
 | `git commit --amend`| Allow the message for the most recent commit to be edited |
+| `git rebase [branch-name]`| Similar to merge but more dangerous in shared repos.  Appends the current branch to the specified branch.  Main advantage is cleaner history. |
 | `git clean -n`| Perform a dry run of clean |
 | `git clean --force`| Clean all untracked files in the workspace |
 | `git clean --force -d`| Clean all untracked files and directories in the workspace |
