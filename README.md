@@ -55,14 +55,18 @@
    
 
 
-![Git Architecture](/assets/images/git-architecture.png)
+[![Git Architecture](/assets/images/git-architecture.png)](https://blog.osteele.com/2008/05/my-git-workflow/)
+&copy; [Oliver Steele](https://osteele.com/)
 
 ## Git Workflow Diagrams
 
-![Git Simple Workflow](/assets/images/git-simple-workflow.jpg)
+[![Git Simple Workflow](/assets/images/git-simple-workflow.jpg)](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
+&copy; [Naked Startup](http://nakedstartup.com/)
 
-![Git Check Sheet Workflow](/assets/images/git-check-sheet.jpg)
+[![Git Check Sheet Workflow](/assets/images/git-check-sheet.jpg)](http://rogerdudler.github.io/git-guide/)
+&copy; [Roger Dudler](https://twitter.com/rogerdudler)
 
 ## Further Details
 
 [Git Further Details (pdf)](/assets/pdfs/git-more-details.pdf)
+&copy; [Atlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
