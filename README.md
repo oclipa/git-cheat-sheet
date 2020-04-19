@@ -2,7 +2,7 @@
 
 ## The Daily Routine
 
-| Command ____________________________________________________ | Action _________________________________________________________________________________ |
+| Command | Action |
 | :------- | :------- |
 | `git pull`| Pull all remote changes from current branch |
 | `git checkout -b [branch-name-here]`| Create a new branch, from the current branch, for your bug/feature/issue |
@@ -19,7 +19,7 @@
 
 ## Additional Actions
 
-| Command ____________________________________________________ | Action _________________________________________________________________________________ |
+| Command | Action |
 | :------- | :------- |
 | `git init`| Initialize the current folder as a repository |
 | `git clone [/path/to/repo]` | Clone local repository |
