@@ -15,7 +15,7 @@
 | `git checkout master`| Switch back to the master branch when the feature is done and tested |
 | `git merge [branch-name-here]`| Merge all changes from the specified branch into the master branch |
 | `git push`| Push your merged changes onto the master branch |
-| <img width="300"/> | <img width="300"/> |
+| <img width="400"/> | <img width="400"/> |
 
 ## Additional Actions
 
@@ -40,7 +40,7 @@
 | `git clean --force`| Clean all untracked files in the workspace |
 | `git clean --force -d`| Clean all untracked files and directories in the workspace |
 | `git clean --force -dx`| Clean all untracked **and ignored** files and directories in the workspace |
-| <img width="300"/> | <img width="300"/> |
+| <img width="400"/> | <img width="400"/> |
 
 ## Git Architecture &amp; Terminology
 
