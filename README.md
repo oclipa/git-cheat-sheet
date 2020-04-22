@@ -55,22 +55,22 @@
    * **Detached HEAD:** When the HEAD is pointing at a specific commit.  Changes cannot be submitted in this case. 
 
 [![Git Architecture](/assets/images/git-architecture.png)](https://blog.osteele.com/2008/05/my-git-workflow/)
-<br/>&copy; [Oliver Steele](https://osteele.com/)
+<br/>&copy; Oliver Steele: [https://osteele.com/](https://osteele.com/)
 
 <p style="page-break-before: always"/> 
 
 [![Git Simple Workflow](/assets/images/git-simple-workflow.jpg)](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
-<br/>&copy; [Naked Startup](http://nakedstartup.com/)
+<br/>&copy; Naked Startup: [http://nakedstartup.com/](http://nakedstartup.com/)
 
 <p style="page-break-before: always"/> 
 
 [![Git Check Sheet Workflow](/assets/images/git-check-sheet.jpg)](http://rogerdudler.github.io/git-guide/)
-<br/>&copy; [Roger Dudler](https://twitter.com/rogerdudler)
+<br/>&copy; Roger Dudler: [https://twitter.com/rogerdudler](https://twitter.com/rogerdudler)
 
 <p style="page-break-before: always"/> 
 
 ## Further Details
 
 [Git Further Details (pdf)](/assets/pdfs/git-more-details.pdf)
-<br/>&copy; [Atlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+<br/>&copy; Atlassian: [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
