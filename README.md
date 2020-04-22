@@ -1,5 +1,3 @@
-# A Git Cheat-Sheet
-
 ## The Daily Routine
 
 | Command | Action |
@@ -60,8 +58,6 @@
 <br/>&copy; [Oliver Steele](https://osteele.com/)
 
 <p style="page-break-before: always"/> 
-
-## Git Workflow Diagrams
 
 [![Git Simple Workflow](/assets/images/git-simple-workflow.jpg)](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
 <br/>&copy; [Naked Startup](http://nakedstartup.com/)
