@@ -3,11 +3,7 @@
 <a class="link" href="http://oclipa.github.io/toolbox.html">&lt; toolbox</a>
 </div> 
 
-## Git
-
-<div>   
-<button type="button" class="collapsible">+ The Daily Routine</button>
-<div class="content" style="display: none;" markdown="1">
+## The Daily Routine
 
 | Command | Action |
 | :------- | :------- |
@@ -23,12 +19,10 @@
 | `git merge [branch-name-here]`| Merge all changes from the specified branch into the master branch |
 | `git push`| Push your merged changes onto the master branch |
 | <img width="300"/> | <img width="400"/> |
-</div>
-</div>
+
 <p style="page-break-before: always"/> 
-<div>   
-<button type="button" class="collapsible">+ Additional Actions</button>
-<div class="content" style="display: none;" markdown="1">
+
+## Additional Actions
 
 | Command | Action |
 | :------- | :------- |
@@ -52,8 +46,7 @@
 | `git clean --force -d`| Clean all untracked files and directories in the workspace |
 | `git clean --force -dx`| Clean all untracked **and ignored** files and directories in the workspace |
 | <img width="300"/> | <img width="400"/> |
-</div>
-</div>
+
 <p style="page-break-before: always"/> 
 <div>   
 <button type="button" class="collapsible">+ Git Architecture &amp; Terminology</button>
