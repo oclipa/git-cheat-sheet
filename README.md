@@ -1,4 +1,13 @@
-## The Daily Routine
+<div style="display: inline-block;">
+<a class="link" href="http://oclipa.github.io/">&lt; home</a>
+<a class="link" href="http://oclipa.github.io/toolbox.html">&lt; toolbox</a>
+</div> 
+
+## Git
+
+<div>   
+<button type="button" class="collapsible">+ The Daily Routine</button>
+<div class="content" style="display: none;" markdown="1">
 
 | Command | Action |
 | :------- | :------- |
@@ -14,10 +23,12 @@
 | `git merge [branch-name-here]`| Merge all changes from the specified branch into the master branch |
 | `git push`| Push your merged changes onto the master branch |
 | <img width="300"/> | <img width="400"/> |
-
+</div>
+</div>
 <p style="page-break-before: always"/> 
-
-## Additional Actions
+<div>   
+<button type="button" class="collapsible">+ Additional Actions</button>
+<div class="content" style="display: none;" markdown="1">
 
 | Command | Action |
 | :------- | :------- |
@@ -41,10 +52,12 @@
 | `git clean --force -d`| Clean all untracked files and directories in the workspace |
 | `git clean --force -dx`| Clean all untracked **and ignored** files and directories in the workspace |
 | <img width="300"/> | <img width="400"/> |
-
+</div>
+</div>
 <p style="page-break-before: always"/> 
-
-## Git Architecture &amp; Terminology
+<div>   
+<button type="button" class="collapsible">+ Git Architecture &amp; Terminology</button>
+<div class="content" style="display: none;" markdown="1">
 
    * **Staging Index:** Add file to repo index in preparation for commit
    * **Commit:** Copy all staged files to the local repo database
@@ -56,21 +69,75 @@
 
 [![Git Architecture](/assets/images/git-architecture.png)](https://blog.osteele.com/2008/05/my-git-workflow/)
 <br/>&copy; Oliver Steele: [https://osteele.com/](https://osteele.com/)
-
+</div>
+</div>
 <p style="page-break-before: always"/> 
+<div>   
+<button type="button" class="collapsible">+ An Example Simple Workflow</button>
+<div class="content" style="display: none;" markdown="1">
 
 [![Git Simple Workflow](/assets/images/git-simple-workflow.jpg)](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
 <br/>&copy; Naked Startup: [http://nakedstartup.com/](http://nakedstartup.com/)
-
+</div>
+</div>
 <p style="page-break-before: always"/> 
+<div>   
+<button type="button" class="collapsible">+ An Example More Complex Workflow</button>
+<div class="content" style="display: none;" markdown="1">
 
 [![Git Check Sheet Workflow](/assets/images/git-check-sheet.jpg)](http://rogerdudler.github.io/git-guide/)
 <br/>&copy; Roger Dudler: [https://twitter.com/rogerdudler](https://twitter.com/rogerdudler)
-
+</div>
+</div>
 <p style="page-break-before: always"/> 
-
-## Further Details
+<div>   
+<button type="button" class="collapsible">+ Further Details</button>
+<div class="content" style="display: none;" markdown="1">
 
 [Git Further Details (pdf)](/assets/pdfs/git-more-details.pdf)
 <br/>&copy; Atlassian: [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+</div>
+</div>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+------
+**Move along; nothing to see here...**
+
+<script type="text/javascript">
+
+    function loadCSS(filename){ 
+
+       var file = document.createElement("link");
+       file.setAttribute("rel", "stylesheet");
+       file.setAttribute("type", "text/css");
+       file.setAttribute("href", filename);
+       document.head.appendChild(file);
+    }
+
+    //just call a function to load your CSS
+    //this path should be relative your HTML location
+    loadCSS("collapse.css");
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+</script>
+
 
