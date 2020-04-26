@@ -60,7 +60,7 @@
    * **Checkout:** Redirect the HEAD to point to a specific commit or branch (or fetch a specific file, which doesn't change the HEAD).
    * **Detached HEAD:** When the HEAD is pointing at a specific commit.  Changes cannot be submitted in this case. 
 
-<img src="/assets/images/git-architecture.png" />
+<img src="git-cheat-sheet/assets/images/git-architecture.png" />
 
 <br/>[Original Image](https://blog.osteele.com/2008/05/my-git-workflow/)
 &copy; Oliver Steele: [https://osteele.com/](https://osteele.com/)
@@ -71,7 +71,7 @@
 <button type="button" class="collapsible">+ An Example Simple Workflow</button>
 <div class="content" style="display: none;" markdown="1">
 
-<img src="/assets/images/git-simple-workflow.jpg" width="90%" height="90%" />
+<img src="git-cheat-sheet/assets/images/git-simple-workflow.jpg" width="90%" height="90%" />
 
 <br/>[Original Image](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
 &copy; Naked Startup: [http://nakedstartup.com/](http://nakedstartup.com/)
@@ -82,7 +82,7 @@
 <button type="button" class="collapsible">+ An Example More Complex Workflow</button>
 <div class="content" style="display: none;" markdown="1">
 
-<img src="/assets/images/git-check-sheet.jpg" width="90%" height="90%" />
+<img src="git-cheat-sheet/assets/images/git-check-sheet.jpg" width="90%" height="90%" />
 
 <br/>[Original Image](http://rogerdudler.github.io/git-guide/)
 &copy; Roger Dudler: [https://twitter.com/rogerdudler](https://twitter.com/rogerdudler)
