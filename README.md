@@ -60,8 +60,10 @@
    * **Checkout:** Redirect the HEAD to point to a specific commit or branch (or fetch a specific file, which doesn't change the HEAD).
    * **Detached HEAD:** When the HEAD is pointing at a specific commit.  Changes cannot be submitted in this case. 
 
-[![Git Architecture](/assets/images/git-architecture.png)](https://blog.osteele.com/2008/05/my-git-workflow/)
-<br/>&copy; Oliver Steele: [https://osteele.com/](https://osteele.com/)
+<img src="/assets/images/git-architecture.png" />
+
+<br/>[Original Image](https://blog.osteele.com/2008/05/my-git-workflow/)
+&copy; Oliver Steele: [https://osteele.com/](https://osteele.com/)
 </div>
 </div>
 <p style="page-break-before: always"/> 
@@ -69,8 +71,10 @@
 <button type="button" class="collapsible">+ An Example Simple Workflow</button>
 <div class="content" style="display: none;" markdown="1">
 
-[![Git Simple Workflow](/assets/images/git-simple-workflow.jpg)](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
-<br/>&copy; Naked Startup: [http://nakedstartup.com/](http://nakedstartup.com/)
+<img src="/assets/images/git-simple-workflow.jpg" width="90%" height="90%" />
+
+<br/>[Original Image](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
+&copy; Naked Startup: [http://nakedstartup.com/](http://nakedstartup.com/)
 </div>
 </div>
 <p style="page-break-before: always"/> 
@@ -78,8 +82,10 @@
 <button type="button" class="collapsible">+ An Example More Complex Workflow</button>
 <div class="content" style="display: none;" markdown="1">
 
-[![Git Check Sheet Workflow](/assets/images/git-check-sheet.jpg)](http://rogerdudler.github.io/git-guide/)
-<br/>&copy; Roger Dudler: [https://twitter.com/rogerdudler](https://twitter.com/rogerdudler)
+<img src="/assets/images/git-check-sheet.jpg" width="90%" height="90%" />
+
+<br/>[Original Image](http://rogerdudler.github.io/git-guide/)
+&copy; Roger Dudler: [https://twitter.com/rogerdudler](https://twitter.com/rogerdudler)
 </div>
 </div>
 <p style="page-break-before: always"/> 
