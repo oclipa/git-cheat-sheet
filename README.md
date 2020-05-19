@@ -49,6 +49,28 @@
 
 <p style="page-break-before: always"/> 
 <div>   
+<button type="button" class="collapsible">+ Enable SSH for GitHub</button>
+<div class="content" style="display: none;" markdown="1">
+The main advantage of enabling SSH, rather than just using HTTPS, is that a username and password does not need to be entered for every action.
+  
+1. Generate a new SSH key: 
+   * `ssh-keygen -t rsa -b 4096 -C "your_github_email@example.com"`
+1. Start the SSH agent: 
+   * `eval $(ssh-agent -s)`
+1. Add the private key to the SSH agent: 
+   * `ssh-add ~/.ssh/id_rsa`
+1. Copy the contents of ~/.ssh/id_rsa.pub (the public key) to the clipboard
+1. On github.com, Profile Picture -> Settings -> SSH and GPG keys -> New SSH Key -> Paste the key into the Key field and give it an identifying name -> Add SSH Key
+1. Test the connection: `ssh -T git@github.com`
+   * If this fails, try: `ssh -T -p 443 git@ssh.github.com`
+   * Further info: https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+1. Once access is working, restart all terminals and applications that may wish to use Git via SSH (such as Visual Studio Code).
+  
+**Note:** The SSH agent must be running whenever you want to use SSH (so you may want to add the start-up command to your OS's start-up routines).
+</div>
+</div>
+
+<div>   
 <button type="button" class="collapsible">+ Git Architecture &amp; Terminology</button>
 <div class="content" style="display: none;" markdown="1">
 
