@@ -3,6 +3,9 @@
 <a class="link" href="http://oclipa.github.io/toolbox.html">&lt; toolbox</a>
 </div> 
 
+* https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html
+
+
 ## The Daily Routine
 
 | Command | Action |
