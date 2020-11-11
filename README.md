@@ -5,6 +5,7 @@
 
 * https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html
 
+<img src="assets/images/git.png" />
 
 ## The Daily Routine
 
