@@ -3,9 +3,13 @@
 <a class="link" href="http://oclipa.github.io/toolbox.html">&lt; toolbox</a>
 </div> 
 
-* https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html
+My attempt to summarize the main features of Git:
 
 <img src="assets/images/git.png" />
+
+## Links
+
+* [https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html](Understanding Branches in Git)
 
 ## The Daily Routine
 
