@@ -3,6 +3,8 @@
 <a class="link" href="http://oclipa.github.io/toolbox.html">&lt; toolbox</a>
 </div> 
 
+## Summary
+
 My attempt to summarize the main features of Git:
 
 <img src="assets/images/git.png" />
