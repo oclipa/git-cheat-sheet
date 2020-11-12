@@ -84,6 +84,7 @@ The main advantage of enabling SSH, rather than just using HTTPS, is that a user
 <button type="button" class="collapsible">+ Further Details</button>
 <div class="content" style="display: none;" markdown="1">
 
+* [https://git-scm.com/docs](Git Documentation)
 * [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](Atlassian Git Cheatsheet)
 * [https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html](Understanding Branches in Git)
 
