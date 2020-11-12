@@ -7,27 +7,27 @@
 
 My attempt to summarize the main features of Git:
 
-<img src="assets/images/git.png" />
+<a href="assets/images/git.png" target="_blank"><img src="assets/images/git.png" /></a>
 
 ## Links
 
-* [https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html](Understanding Branches in Git)
 
-## The Daily Routine
+## A Daily Routine
 
 | Command | Action |
 | :------- | :------- |
-| `git pull`| Pull all remote changes from current branch |
-| `git checkout -b [branch-name-here]`| Create a new branch, from the current branch, for your bug/feature/issue |
+| `git fetch origin [upstream-branch]`| Fetch all changes from the specified branch into the current branch |
+| `git merge origin/[upstream-branch]`| Merge all changes from the specified branch into the current branch |
+| `git branch [branch]` | Create a new branch, from the current branch, for your bug/feature/issue |
+| `git switch [branch]` | Switch to the new branch |
+| - | Make changes |
 | `git add .`| Add any changed files to the staging index |
 | `git status`| See the current status of the workspace |
 | `git diff [source branch] [target branch]`| Show changes |
 | `git commit -m "Detailed message here"`| Make the commit have a nice, detailed message |
-| `git push`| Push your changes onto the current branch |
-| `git request-pull master ./`| Request review of latest changes in current branch compared to master |
-| `git checkout master`| Switch back to the master branch when the feature is done and tested |
-| `git merge [branch-name-here]`| Merge all changes from the specified branch into the master branch |
-| `git push`| Push your merged changes onto the master branch |
+| `git branch -vv` | Display local branches and the remote branches to which they are mapped |
+| `git push [-u] origin/[upstream-branch]`| Push your changes to an upstream branch (`-u` = create the upstream branch into which changes will be pushed) |
+| `git request-pull [upstream-branch] ./`| Request review of latest changes in current branch compared to master |
 | <img width="300"/> | <img width="400"/> |
 
 <p style="page-break-before: always"/> 
@@ -39,12 +39,12 @@ My attempt to summarize the main features of Git:
 | `git init`| Initialize the current folder as a repository |
 | `git clone [/path/to/repo]` | Clone local repository |
 | `git clone [url]`| Clone a remote repository |
+| `git mv [file]`| Move a file |
 | `git rm [file]`| Remove/delete a file |
-| `git push origin [branch]` | Push changes to a specific branch |
 | `git branch -d [branch-name-here]` | Delete a branch |
 | `git tag [tag] [commit ID]` | Create a tag |
 | `git log`| Display the git log |
-| `git checkout -- [filename]`| Restore working copy with latest from HEAD |
+| `git restore [filename]`| Restore working copy with latest from HEAD |
 | `git revert [commit ID]`| Rollback to the specified commit (preferred method for reverting a change) |
 | `git reset --soft [HEAD or commit ID]`| Discarding intervening commits.<br/>Reset the HEAD to another commit but do not alter the index or working directory.<br/>All changes between original HEAD and commit will be staged. |
 | `git reset --mixed [HEAD or commit ID]`| Discarding intervening commits and adds.<br/>Reset the HEAD and index to another commit but do not alter the working directory.<br/>All staged changes are removed from the index. |
@@ -81,52 +81,12 @@ The main advantage of enabling SSH, rather than just using HTTPS, is that a user
 </div>
 
 <div>   
-<button type="button" class="collapsible">+ Git Architecture &amp; Terminology</button>
-<div class="content" style="display: none;" markdown="1">
-
-   * **Staging Index:** Add file to repo index in preparation for commit
-   * **Commit:** Copy all staged files to the local repo database
-   * **Push:** Copy all commited changes to the remote repo database
-   * **Pull:** Copy latest changes from remote repo into local repo
-   * **HEAD:** The current branch or commit referenced by the local repo
-   * **Checkout:** Redirect the HEAD to point to a specific commit or branch (or fetch a specific file, which doesn't change the HEAD).
-   * **Detached HEAD:** When the HEAD is pointing at a specific commit.  Changes cannot be submitted in this case. 
-
-<img src="assets/images/git-architecture.png" />
-
-<br/>[Original Image](https://blog.osteele.com/2008/05/my-git-workflow/)
-&copy; Oliver Steele: [https://osteele.com/](https://osteele.com/)
-</div>
-</div>
-<p style="page-break-before: always"/> 
-<div>   
-<button type="button" class="collapsible">+ An Example Simple Workflow</button>
-<div class="content" style="display: none;" markdown="1">
-
-<img src="assets/images/git-simple-workflow.jpg" width="90%" height="90%" />
-
-<br/>[Original Image](http://nakedstartup.com/2010/04/simple-daily-git-workflow)
-&copy; Naked Startup: [http://nakedstartup.com/](http://nakedstartup.com/)
-</div>
-</div>
-<p style="page-break-before: always"/> 
-<div>   
-<button type="button" class="collapsible">+ An Example Of A More Complex Workflow</button>
-<div class="content" style="display: none;" markdown="1">
-
-<img src="assets/images/git-check-sheet.jpg" width="90%" height="90%" />
-
-<br/>[Original Image](http://rogerdudler.github.io/git-guide/)
-&copy; Roger Dudler: [https://twitter.com/rogerdudler](https://twitter.com/rogerdudler)
-</div>
-</div>
-<p style="page-break-before: always"/> 
-<div>   
 <button type="button" class="collapsible">+ Further Details</button>
 <div class="content" style="display: none;" markdown="1">
 
-[Git Further Details (pdf)](/assets/pdfs/git-more-details.pdf)
-<br/>&copy; Atlassian: [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+* [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](Atlassian Git Cheatsheet)
+* [https://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html](Understanding Branches in Git)
+
 </div>
 </div>
 
