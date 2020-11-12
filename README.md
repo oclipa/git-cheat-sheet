@@ -24,10 +24,10 @@ My attempt to summarize the main features of Git:
 | `git add .`| Add any changed files to the staging index |
 | `git status`| See the current status of the workspace |
 | `git diff [source branch] [target branch]`| Show changes |
-| `git commit -m "Detailed message here"`| Make the commit have a nice, detailed message |
+| `git commit -m "message"`| Make the commit have a nice, detailed message |
 | `git branch -vv` | Display local branches and the remote branches to which they are mapped |
 | `git push [-u] origin/[upstream-branch]`| Push your changes to an upstream branch (`-u` = create the upstream branch into which changes will be pushed) |
-| `git request-pull [upstream-branch] ./`| Request review of latest changes in current branch compared to master |
+| `git request-pull origin/[master branch] origin/[branch]`| Request review of latest changes in current branch compared to master (typically, it is simpler to do this from a GUI tool) |
 | <img width="300"/> | <img width="400"/> |
 
 <p style="page-break-before: always"/> 
