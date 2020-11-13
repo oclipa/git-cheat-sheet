@@ -19,7 +19,7 @@ A summary of the main features of Git:
 | `git merge origin/[upstream-branch]`| Merge all changes from the specified branch into the current branch |
 | `git branch [branch]` | Create a new branch, from the current branch, for your bug/feature/issue |
 | `git switch [branch]` | Switch to the new branch |
-| - | Make changes |
+| Make the necessary changes |  |
 | `git add .`| Add any changed files to the staging index |
 | `git status`| See the current status of the workspace |
 | `git diff [source branch] [target branch]`| Show changes |
